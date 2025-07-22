@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Benim İlk Web Sitem</title>
+</head>
+<body>
+  <h1>Merhaba, ben Tolgahan!</h1>
+  <p>Bu benim ilk GitHub Pages web sitem.</p>
+</body>
+</html>
+<img src="https://via.placeholder.com/300x150.png?text=Merhaba+Tolgahan!" alt="Örnek Resim" />
+<button onclick="alert('Butona tıkladın!')">Bana Tıkla</button>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+<div style="width:100px; height:100px; background-color:#3498db; animation:move 2s infinite alternate;"></div>
+
+<style>
+@keyframes move {
+  from {transform: translateX(0);}
+  to {transform: translateX(100px);}
+}
+</style>
